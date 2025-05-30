@@ -20,8 +20,7 @@ Content-Type: application/json
 
 {
     "number": 20,
-    "capacity": 100, 
-    "id":  "H03"
+    "capacity": 100 
 }
 
 ### PATCH (modificacion parcial o incremental)
@@ -29,8 +28,7 @@ PATCH http://localhost:3000/api/halls/H01
 Content-Type: application/json
 
 {
-    "number": 10,
-    "id":  "H03"
+    "number": 10
 }
 
 ### DELETE 
